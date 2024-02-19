@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+ 
+.progress-bar {
+  display: flex;
+  align-items: center;
+}
+ 
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+ 
+.active {
+  background-color: #4caf50;
+}
+ 
+#prev,
+#next {
+  margin: 0 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+ 
+#prev:disabled,
+#next:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+ 
+ 
